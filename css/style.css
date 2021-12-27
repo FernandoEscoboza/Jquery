@@ -1,0 +1,42 @@
+.zebra{
+    border: 5px dashed black;
+}
+.grande{
+    font-size: 30px;
+}
+
+.margen-superior{
+    margin-top: 45px;
+    display: block;
+}
+
+.resaltado{
+    border-bottom: 2px green solid ;
+}
+
+#caja{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background:green;
+}
+/* 
+#caja:hover{
+    background: red;
+    cursor: pointer;
+} */
+
+input{
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+}
+
+#datos{
+    border: 4px dasehd black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    margin-top:10px;
+    display: none;
+}
