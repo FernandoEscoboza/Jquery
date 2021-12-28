@@ -31,13 +31,13 @@ $(document).ready(function(){
     });
 
     $('#hide').click(function(){
-        $(this).hide();
+        $(this).hide(); 
         caja.show('slow');
         $('#show').show();
     });
 
     $('allinone').click(function(){
-        caja.slideToggle('fast');
+        caja.toggle('fast');
     });
 
     $('#animaciones').click(function(){

@@ -8,7 +8,8 @@
     <script src="js/jquery-3.6.0.js"></script>
     <!-- <script src="js/selector.js"></script> -->
     <!-- <script src="js/eventos.js"></script> -->
-    <script src="js/animaciones.js"></script>
+    <!-- <script src="js/animaciones.js"></script> -->
+    <script src="js/ajax.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -56,15 +57,26 @@
         <li> <a href="https://facebook.com"></a></li>
     </ul> -->
 
-    <button id="show">Show</button>
+    <!-- <button id="show">Show</button>
     <button id="hide">Hide</button>
     <button id="allinone">allinone</button>
     <button id="animaciones">Animate</button>
 
     <div id="caja">
         <h4>Master en Js</h4>
-    </div>
+    </div> -->
 
-    <!-- A -->
+    <!-- Peticiones Ajax con Jquery -->
+
+    <form action="https://reqres.in/api/users" method="POST" id="form">
+        Name: <input type="text" name="name" id="">
+        Web: <input type="text" name="web" id="">
+        <input type="submit" value="Register">
+    </form>
+
+    <br>
+    
+    <div id="datos"></div>
+
 </body>
 </html>
