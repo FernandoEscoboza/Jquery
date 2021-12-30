@@ -26,5 +26,10 @@ $(document).ready(function(){
         }
     });
     
+    // Efectos
+    $('#show').click(function(){
+        $('.caja-efectos').toggle('slide');
+    });
 
+    
 });

@@ -108,3 +108,11 @@ ul .ui-selected{
     margin: 20px;
     float: left;
 }
+
+.elemento{
+    width: 300px;
+    height: 200px;
+    background:rgb(255, 0, 0);
+    margin: 20px;
+    float: none;
+}
